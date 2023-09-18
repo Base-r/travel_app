@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:travel_olimp/ui/lnd/land_screen.dart';
+import 'package:travel_olimp/ui/land/land_screen.dart';
 import 'package:travel_olimp/ui/map/map_screen.dart';
 import 'package:travel_olimp/ui/profile/profile.dart';
 
@@ -22,9 +22,9 @@ class _MainPageState extends State<MainPage> {
               currentPageIndex = index;
             });
           },
-          backgroundColor: Color.fromARGB(255, 113, 255, 161),
+          backgroundColor: const Color.fromARGB(255, 113, 255, 161),
           selectedIndex: currentPageIndex,
-          destinations: <Widget>[
+          destinations: const <Widget>[
             NavigationDestination(
               selectedIcon: Icon(
                 Icons.star,
@@ -61,9 +61,9 @@ class _MainPageState extends State<MainPage> {
           ],
         ),
         body: <Widget>[
-          LandPage(),
-          MapPage(),
-          ProfilePage(),
+          const LandPage(),
+          const MapPage(),
+          const ProfilePage(),
         ][currentPageIndex]);
   }
 }
