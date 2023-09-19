@@ -17,3 +17,18 @@ dev_dependencies:
   flutter_lints: ^2.0.0
 flutter:
   uses-material-design: true
+
+  assets:
+    - assets/images/bgacc.jpg
+    - assets/images/ava.jpg
+    - assets/images/bgchat.jpg
+    - assets/images/almaz.jpg
+    - assets/images/gorodFirst.jpg
+    - assets/images/mauntens.jpg
+    - assets/images/chat.jpg
+    - assets/images/favorite.jpg
+    - assets/images/filters.jpg
+    - assets/images/history.jpg
+    - assets/images/previewLogo.jpg
+
+    - assets/icons/logo.jpg
