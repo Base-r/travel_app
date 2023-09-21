@@ -10,6 +10,7 @@ dependencies:
     sdk: flutter
   cupertino_icons: ^1.0.2
   bloc: ^8.1.2
+  flutter_svg: ^2.0.7
 
 dev_dependencies:
   flutter_test:
@@ -32,3 +33,4 @@ flutter:
     - assets/images/previewLogo.jpg
 
     - assets/icons/logo.jpg
+    - assets/icons/
